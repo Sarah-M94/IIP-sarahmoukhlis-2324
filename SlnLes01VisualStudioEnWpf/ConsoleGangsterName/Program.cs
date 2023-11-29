@@ -30,7 +30,7 @@ namespace ConsoleGangsterName
 
             Console.Write("Your Gangsta name: ");
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine($"{disneycharacterName} '{workbenchTool}' {lastName}");
+            Console.WriteLine($"{disneycharacterName} 'the {workbenchTool}' {lastName}");
             
             Console.ReadLine();
         }
