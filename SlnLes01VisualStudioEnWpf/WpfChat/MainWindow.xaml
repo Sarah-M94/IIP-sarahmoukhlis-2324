@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfChat.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfChat"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="lblNaam" Content="Naam" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="32" Margin="30,25,0,0" VerticalAlignment="Top" Width="95" FontSize="14"/>
+        <TextBox x:Name="txtNaam" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="29" Margin="170,35,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="170"/>
+        <Label x:Name="lblBericht" Content="Bericht" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="30" Margin="30,115,0,0" VerticalAlignment="Top" Width="95" FontSize="14"/>
+        <TextBox x:Name="txtBericht" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="173" Margin="152,127,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="194"/>
+        <Button x:Name="btnSend" Content="Verzenden" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="58" Margin="249,332,0,0" VerticalAlignment="Top" Width="97" Padding="10,5,10,5" Click="btnSend_Click"/>
+        <TextBlock x:Name="txtChat" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="255" Margin="510,65,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="212" Padding="15,5,15,5"/>
+
+    </Grid>
+</Window>
