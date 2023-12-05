@@ -14,11 +14,13 @@
         <RadioButton Content="KiHo" HorizontalAlignment="Left" Height="17" Margin="83,198,0,0" VerticalAlignment="Top" Width="125"/>
         <RadioButton Content="RadioButton" HorizontalAlignment="Left" Height="19" Margin="83,220,0,0" VerticalAlignment="Top" Width="102" RenderTransformOrigin="0.356,-2.071"/>
         <Label Content="2.KIES JE PRIJS" HorizontalAlignment="Left" Height="33" Margin="56,254,0,0" VerticalAlignment="Top" Width="278" FontSize="20" FontWeight="Bold"/>
-        <RadioButton Content="Prijs 1" HorizontalAlignment="Left" Height="20" Margin="83,321,0,0" VerticalAlignment="Top" Width="112"/>
-        <RadioButton Content="Prijs 2" HorizontalAlignment="Left" Height="14" Margin="83,363,0,0" VerticalAlignment="Top" Width="102"/>
-        <RadioButton Content="Prijs 3" HorizontalAlignment="Left" Height="20" Margin="83,404,0,0" VerticalAlignment="Top" Width="102"/>
-        <Image x:Name="img"  HorizontalAlignment="Left" Height="100" Margin="516,287,0,0" VerticalAlignment="Top" Width="100"/>
-    
+        <RadioButton x:Name="btn1" Content="Prijs 1" HorizontalAlignment="Left" Height="20" Margin="83,321,0,0" VerticalAlignment="Top" Width="112"/>
+        <RadioButton x:Name="btn2" Content="Prijs 2" HorizontalAlignment="Left" Height="14" Margin="83,363,0,0" VerticalAlignment="Top" Width="102"/>
+        <RadioButton x:Name="btn3" Content="Prijs 3" HorizontalAlignment="Left" Height="20" Margin="83,404,0,0" VerticalAlignment="Top" Width="102"/>
+        <Image x:Name="img"  HorizontalAlignment="Left" Height="100" Margin="523,270,0,0" VerticalAlignment="Top" Width="100" Source="/img/kado.jpg"/>
+        
+
+
 
     </Grid>
 </Window>
